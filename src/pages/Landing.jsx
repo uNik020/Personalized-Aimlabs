@@ -13,11 +13,11 @@ export default function Landing() {
       <SplashCursor />
       {/* Main Content */}
       <motion.h1
-        initial={{ y: -100, opacity: 0 }}
+        initial={{ y: -200, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        className="text-8xl font-bold mb-8"
+        className="text-8xl font-bold mb-8 antialiased"
       >
-        Aim Trainer
+        AIM TRAINER
       </motion.h1>
 
       <motion.div
